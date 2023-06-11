@@ -28,7 +28,7 @@ app.get('/help', (req, res)=>{
     // res.send('help is coming')
     res.render('help',{
         title : "WeatherCast",
-        message : "my msg"
+        message : "Need Help? Contact us"
     })
 })
 
